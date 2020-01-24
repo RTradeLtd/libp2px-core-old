@@ -6,7 +6,7 @@ import (
 
 	"github.com/RTradeLtd/libp2px-core/peer"
 	"github.com/RTradeLtd/libp2px-core/protocol"
-	"github.com/libp2p/go-flow-metrics"
+	"github.com/RTradeLtd/libp2px-core/metrics/flow"
 )
 
 // BandwidthCounter tracks incoming and outgoing data transferred by the local peer.
