@@ -7,7 +7,7 @@ import (
 
 	pb "github.com/RTradeLtd/libp2px-core/crypto/pb"
 
-	openssl "github.com/libp2p/go-openssl"
+	openssl "github.com/RTradeLtd/libp2px-openssl"
 )
 
 // define these as separate types so we can add more key types later and reuse
