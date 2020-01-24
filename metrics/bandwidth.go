@@ -4,9 +4,9 @@ package metrics
 import (
 	"time"
 
+	"github.com/RTradeLtd/libp2px-core/metrics/flow"
 	"github.com/RTradeLtd/libp2px-core/peer"
 	"github.com/RTradeLtd/libp2px-core/protocol"
-	"github.com/RTradeLtd/libp2px-core/metrics/flow"
 )
 
 // BandwidthCounter tracks incoming and outgoing data transferred by the local peer.
