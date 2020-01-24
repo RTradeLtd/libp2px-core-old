@@ -3,25 +3,29 @@ language: go
 go:
   - 1.13.x
 
+os:
+  - linux
+
 env:
   global:
-    - GO111MODULE=on
+  - GO111MODULE=on
+  - GOPRIVATE=github.com/RTradeLtd/*
 
 install:
-- go get honnef.co/go/tools/cmd/staticcheck
-- go mod download
+  - go get honnef.co/go/tools/cmd/staticcheck
+  - go mod download
 
 before_script:
-- go vet ./...
-- go build ./...
-- go test -run xxxx ./...
+  - go vet ./...
+  - go build ./...
+  - go test -run xxxx ./...
 
 script:
-- make verifiers
-- go test -race -short -coverprofile=coverage.txt ./...
+  - make verifiers
+  - go test -race -short -tags=openssl -coverprofile=coverage.txt ./...
 
 after_success:
-- bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash)
 
 cache:
   directories:

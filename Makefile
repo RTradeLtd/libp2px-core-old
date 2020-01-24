@@ -1,20 +1,4 @@
-# cleanup dependencies and download missing ones
-.PHONY: deps
-deps:
-	go mod tidy
-	go mod download
-
-# run dependency cleanup, followed by updating the patch version
-.PHONY: deps-update
-deps-update: deps
-	go get -u=patch
-	
-# run tests
-.PHONY: tests
-tests:
-	go test -race -cover -count 1 ./...
-
-# run standard go tooling for better rcode hygiene
+# run standard go tooling for better readability
 .PHONY: tidy
 tidy: imports fmt
 	go vet ./...
