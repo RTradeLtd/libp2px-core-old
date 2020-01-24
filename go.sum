@@ -1,7 +1,7 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
-github.com/RTradeLtd/libp2px-openssl v0.0.5-0.20200124065130-3db2037d2eef h1:F9CwEQZYaf+VcwSvn5DYBhHFUAAKkDxp9OQ/YZThST0=
-github.com/RTradeLtd/libp2px-openssl v0.0.5-0.20200124065130-3db2037d2eef/go.mod h1:ff63RVcnFor7W4bjDeqgrDm5DK7fn3zISBRX03WT1og=
+github.com/RTradeLtd/libp2px-openssl v0.0.5 h1:8giu5PtGgJqDgFs1QH3JJjeTfM2on7VTZKclDuPROrU=
+github.com/RTradeLtd/libp2px-openssl v0.0.5/go.mod h1:ff63RVcnFor7W4bjDeqgrDm5DK7fn3zISBRX03WT1og=
 github.com/aead/siphash v1.0.1 h1:FwHfE/T45KPKYuuSAKyyvE+oPWcaQ+CUmFW0bPlM+kg=
 github.com/aead/siphash v1.0.1/go.mod h1:Nywa3cDsYNNK3gaciGTWPwHt0wlpNV15vwmswBAUSII=
 github.com/btcsuite/btcd v0.20.1-beta h1:Ik4hyJqN8Jfyv3S4AGBOmyouMsYE3EdYODkMbQjwPGw=

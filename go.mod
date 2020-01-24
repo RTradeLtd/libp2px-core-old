@@ -1,7 +1,7 @@
 module github.com/RTradeLtd/libp2px-core
 
 require (
-	github.com/RTradeLtd/libp2px-openssl v0.0.5-0.20200124065130-3db2037d2eef
+	github.com/RTradeLtd/libp2px-openssl v0.0.5
 	github.com/btcsuite/btcd v0.20.1-beta
 	github.com/coreos/go-semver v0.3.0
 	github.com/gogo/protobuf v1.3.1
